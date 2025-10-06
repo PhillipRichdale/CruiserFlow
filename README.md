@@ -1,3 +1,5 @@
+![CruiserFlow Logo](CruiserFlow.png)
+
 ***CruiserFlow*** is a simple and straightforward Git Workflow for web software projects with a small team size (~ 12 individuals or less) and regular interpersonal communication. It is designed for and integrates very nicely with single small teams in which every individual knows every other individual, communication occurs on a regular basis and trustful joint ownership of the projects is universally shared.
 
 CruiserFlow is also very suitable for a highly agile fast iterating Scrum approach with weekly sprints, standardized tools and technology and code that is run directly without further centralized post-commit code-processing like automated upstream compilation, transpilation, minification, testing, container procedures or similarly complex and centralized pre-deploy tasks.
