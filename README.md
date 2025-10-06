@@ -34,7 +34,7 @@ CruiserFlow makes potentially required rollbacks trivially easy and tracks every
 * **testing** (optional branch)
     * no direct commits allowed, only merges
     * **testing** is an optional branch that deploys to **its** own host automatically upon merge and allows for user-testing individual **features** that aren’t decided upon yet
-    * in **testing** all bets are off; **testing** may be deleted and **re-branched** from **release** or some **individual’s** own **develop** branch
+    * in **testing** all bets are off; **testing** may be deleted and **re-branched** from **release** or some **individual’s** own **develop** branch without further notice (team coordination and common sense required)
 
 ***
 
