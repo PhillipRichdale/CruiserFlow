@@ -76,3 +76,6 @@ CruiserFlow makes potentially required rollbacks trivially easy and tracks every
 Every individual may have as many branches, working copies, or repo-copies as they deem necessary in their individual workspace locally and is encouraged to do so in order to solve specific problems or prevent pushing prohibited branches to upstream.
 
 However, they are **_not_** allowed to push these other branches upstream and nothing mission-critical may solely be stored and tracked in such a branch. It is up to the individual developer to ensure that upstream information and configuration is removed/disabled in additional personal clones to prevent accidental upstream pushing.
+
+## Automated Tests
+Automated tests are run individually by each developer locally. Shaming and blaming happens in real life, where it belongs. :-)
