@@ -28,7 +28,7 @@ CruiserFlow makes potentially required rollbacks trivially easy and tracks every
     * commits must be logically **separated** by feature or task
     * commits that are merged into **release** must contain useful information on the updates contained
     * the individual developer may add **additional** entries to **.gitignore** in coordination with **their** peers if **/workbin** doesn’t suffice for technical reasons
-    * the developer may tag commits as **they** desire, as long as **their** personal tags don’t collide with universal tags the team has agreed on
+    * the developer may tag commits as they desire, as long as their personal tags don’t collide with universal tags the team has agreed on
 * **junior-[developers_name]** (optional, as required)
     * same as **develop-…**, but **junior** may not merge; a developer has to pull from **junior-…** and merge into **release**
 * **testing** (optional branch)
