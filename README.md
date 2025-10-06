@@ -41,11 +41,14 @@ CruiserFlow makes potentially required rollbacks trivially easy and tracks every
 ### **CruiserFlow** Directories
 
 * **/workbin**
-    Apart from usually gitignored files and directories, the project’s /workbin directory in root is **_universally ignored_** across all branches in a CruiserFlow project. /workbin is meant for individual developers‘ temporary workfiles such as large BLOBs, taking notes, project related messages, etc. Archiving (subsets of) this directory – if necessary – is the *individual developer’s responsibility* but shouldn’t be generally required.
+    Apart from usually gitignored files and directories, the project’s /workbin directory in root is **_universally ignored_** across all branches in a CruiserFlow project. /workbin is meant for individual developers‘ temporary workfiles such as large BLOBs, taking notes, project related messages, etc. Archiving (subsets of) this directory – if necessary – is the *individual developer’s responsibility* but shouldn’t be generally required
+  
 * **/tools**
     Tooling code and scripts go here; **/tools** must **_not_** be tracked in **release**
+  
 * **/docs**
     documentation in editor-readable format goes here (.txt, .md, etc.); proprietary file formats are prohibited; **/docs** must **_not_** be tracked in **release**
+  
 * **/dist** or **/deploy** (optional directory) a directory of this sort may be tracked in "**release**" and gitignored everywhere else if deemed sensible
 
 ***
