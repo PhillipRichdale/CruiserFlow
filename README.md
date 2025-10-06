@@ -18,7 +18,7 @@ CruiserFlow makes potentially required rollbacks trivially easy and tracks every
     * every commit in **release** represents an actual release; it’s up to the individual developer merging to test and ensure this before merging his code
     * web-ready media assets directly used and referenced in live code may be tracked in this branch but excluding BLOBs that are too large to justify being tracked by keeping them in **/workbin** is recommended and encouraged
     * this branch must **_not_** contain any purely development related code or asset
-    * this branch does **_not_** track the **/tools** or **/workbin** directories
+    * this branch does **_not_** track the **/tools**, **/workbin** or **/docs** directories
     * **release** must be rollback-ready, meaning that the previous commit in **release** should run simply by being (re-)deployed; commits in **release** all must be deployable by non-expert individuals and non-developers
 * **develop-[developers_name]**
     * Every developer has this **_single_** individual upstream branch to which they commit and push frequently (multiple times a day). This branch should closely track the critical aspects of the individual’s current state of work. The developer should not lose any more than 1 or 2 hours of work should their current state of work be lost due to error or disaster. Only the individual developer is allowed to merge from their branch to **release**. Anything that the developer deems useful for their work may go here, including own scripts, individual post-pull and pre-commit tooling, local configs, etc.
